@@ -37,3 +37,22 @@
     transform: rotate(360deg);
   }
 }
+
+
+.webcam,
+.canvas {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9; /* camelCased z-index */
+  width: 640px;
+  height: 480px;
+}
+
+/* Apply blur effect to body when webcam is active */
+.webcam-active body {
+  filter: blur(8px); /* Adjust blur intensity as needed */
+}
