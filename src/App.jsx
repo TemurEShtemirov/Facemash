@@ -11,6 +11,14 @@ export default function App() {
   const webcamRef = useRef(null)
   const canvasRef = useRef(null)
 
+  // Load facemesh
+
+  const runFacemesh = async () => {
+    const net = await facemesh.load({
+      inputResolution: { width: 640, height: 480 },scale:0.8
+    })
+  }
+
   return (
     <>
       <div className="App">
