@@ -40,39 +40,27 @@ function App() {
     }
   };
 
-  useEffect(() => { runFacemesh() }, []);
+  
+  useEffect(() => {
+    runFacemesh();
+    document.body.style.overflow = "hidden"; // Hide scrollbars
+    return () => {
+      document.body.style.overflow = "auto"; // Restore scrollbars on component unmount
+    };
+  }, []);
 
-  return (
+
+ return (
     <div className="App">
       <header className="App-header">
         <Webcam
           ref={webcamRef}
-          style={{
-            position: "absolute",
-            marginLeft: "auto",
-            marginRight: "auto",
-            left: 0,
-            right: 0,
-            textAlign: "center",
-            zIndex: 9, // "zIndex" should be camelCase
-            width: 640,
-            height: 480,
-          }}
+          className="webcam" // Add a className for styling
         />
 
         <canvas
           ref={canvasRef}
-          style={{
-            position: "absolute",
-            marginLeft: "auto",
-            marginRight: "auto",
-            left: 0,
-            right: 0,
-            textAlign: "center",
-            zIndex: 9, // "zIndex" should be camelCase
-            width: 640,
-            height: 480,
-          }}
+          className="canvas" // Add a className for styling
         />
       </header>
     </div>
