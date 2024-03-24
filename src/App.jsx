@@ -55,8 +55,8 @@ function App() {
             right: 0,
             textAlign: "center",
             zIndex: 9, // "zIndex" should be camelCase
-            width: "100%",
-            height: "100%",
+            width: 740,
+            height: 580,
           }}
         />
 
@@ -70,8 +70,8 @@ function App() {
             right: 0,
             textAlign: "center",
             zIndex: 9, // "zIndex" should be camelCase
-            width: "100%",
-            height: "100%",
+            width: 740,
+            height: 580,
           }}
         />
       </header>
