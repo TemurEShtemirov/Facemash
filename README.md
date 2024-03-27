@@ -1,10 +1,6 @@
-Certainly! Here's a README file describing your real-time face detection application without the background blur effect:
-
----
-
 # Real-time Face Detection using TensorFlow.js
 
-![Face Detection]([images/face_detection.gif](https://www.hindustantimes.com/ht-img/img/2023/11/06/1600x900/Deepfake_1699277988039_1699277988386.jpeg))
+![Alt text](https://www.hindustantimes.com/ht-img/img/2023/11/06/1600x900/Deepfake_1699277988039_1699277988386.jpeg)
 
 Welcome to Real-time Face Detection application! This project utilizes TensorFlow.js to perform real-time face detection using the Facemesh model. It provides an interactive interface to detect faces in live webcam streams.
 
@@ -49,7 +45,7 @@ Welcome to Real-time Face Detection application! This project utilizes TensorFlo
 
 ## Screenshot
 
-![Screenshot 1]([images/screenshot1.png](https://cs13.pikabu.ru/post_img/2023/10/24/6/og_og_1698137091278470752.jpg))
+![Alt text](https://cs13.pikabu.ru/post_img/2023/10/24/6/og_og_1698137091278470752.jpg)
 *Real-time face detection in action.*
 
 
