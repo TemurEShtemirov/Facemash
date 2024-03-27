@@ -52,7 +52,3 @@ Welcome to Real-time Face Detection application! This project utilizes TensorFlo
 ## Contributing
 
 Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
-
----
-
-Feel free to customize this README file further with additional information, images, or any other details you'd like to include!
